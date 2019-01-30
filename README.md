@@ -7,7 +7,13 @@ This is a pipeline to easily run the RNA velocity program (http://velocyto.org/)
 To run the script, ensure you have Anaconda and Velocity installed
 
 ## How to use
-Ensure that you have the folder that contains the output file from the cellranger pipeline as well as a gene annotation file. Currently the program contains a a Gene Annotation file of the mm10-mouse annotation file from the cellranger file. To run the program. 
+Ensure that you have the folder that contains the output file from the cellranger pipeline as well as a gene annotation file. Here is a link to a MM-10 Gene Annotation file from my dropbox. 
+
+```
+https://www.dropbox.com/s/mtr5jde54vn76rk/mm10-genes.gtf?dl=0
+```
+
+To run the program. 
 
 Navigate to the folder in terminal/Cmd and type in
 
