@@ -3,9 +3,6 @@ import numpy as np
 from tkinter.filedialog import askopenfilename
 from tkinter.filedialog import askdirectory
 import os
-from Bio.Alphabet import generic_dna
-from Bio import SeqIO
-from Bio.Seq import Seq
 
 
 class GUI(object):
@@ -91,7 +88,7 @@ class GUI(object):
         self.T_Seq.grid(row = self.row, column = 0)
         self.row += 1
 
-        self.G_Seq = self.Organizer("Please select a file inside the 10x Output Folder", "Output_File")
+        self.G_Seq = self.Organizer("Please select the 10x Output Folder", "Output_File")
         self.G_Seq.grid(row = self.row, column = 0)
         self.row += 1
 
