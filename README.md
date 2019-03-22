@@ -4,7 +4,7 @@
 This is a pipeline to easily run the RNA velocity program (http://velocyto.org/). Currently, the GUI is used to run the 10x version of velocyto. 
 
 ## Setup
-To run the script, ensure you have Anaconda and Velocity installed
+To run the script, ensure you have Anaconda,Samtools and Velocity installed
 
 ## How to use
 Ensure that you have the folder that contains the output file from the cellranger pipeline as well as a gene annotation file. Here is a link to a MM-10 Gene Annotation file from my dropbox. 
